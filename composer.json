@@ -1,0 +1,23 @@
+{
+    "name": "maketok/migration",
+    "description": "Data Migration engine design.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oleg Kulik",
+            "email": "olegkulik1985@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/event-dispatcher": "~2"
+    },
+    "require-dev": {
+        "phpunit/PHPUnit": "4.*",
+        "mikey179/vfsStream": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Maketok\\Migration\\": ["src/", "tests/"]
+        }
+    }
+}
